@@ -39,7 +39,18 @@ export function createMarkup(images) {
 
   refs.galleryImage.insertAdjacentHTML('beforeend', markup);
 }
-
+/**
+ * .join('');
+ * const refs = getRefs();
+ * refs.gallery.innerHTML = '',
+ *
+ * export function resetGalllery(){
+ * const refs = resetGallery();
+ * refs.galleryImage.innerHTML = '';
+ * }
+ *
+ *
+ */
 export function resetGallery() {
   const refs = getRefs();
   refs.galleryImage.innerHTML = '';
